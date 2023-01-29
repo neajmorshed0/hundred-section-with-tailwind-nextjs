@@ -3,12 +3,12 @@ import React from 'react';
 
 export default function HeaderLeftButton() {
   return (
-    <header className="py-24">
+    <header className="py-24 max-w-7xl m-auto">
       <div className="max-w-3xl">
         <span className="text-sm md:text-base text-purple-600 font-semibold mb-3 block">
           Pricing
         </span>
-        <h1 className="text-4xl md:text-5xl font-semibold text-gray-900 mb-4 md:mb-6">
+        <h1 className="text-4xl lg:text-5xl font-semibold text-gray-900 mb-4 md:mb-6">
           Plans that fit your scale
         </h1>
         <p className="text-lg md:text-xl text-gray-600 mb-8 md:mb-10">
